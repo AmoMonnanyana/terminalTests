@@ -29,6 +29,12 @@ var itemList3 = [
     {name : 'apples', qty : 37}
 ];
 
+var results3 = [
+    {name : 'apples', qty : 40},
+    {name : 'bananas', qty : 23},
+    {name : 'apples', qty : 37}
+];
+
 describe('The findItemsOver20 function' , function(){
     it('it should return an array that matches "results" when called with the array "itemList".' , function(){
         assert.deepEqual(results, findItemsOver20(itemList));
